@@ -1,13 +1,12 @@
 .navbar {
-   background-color: #f4f4f4;
+   background-color: #cedaff;
     height: 90px;
     color: black;
+    border-bottom: 1px solid black;
 }
-
 .nav-link {
     position: relative;
 }
-
 .nav-link::after {
     content: '';
     opacity: 0;
@@ -19,8 +18,36 @@
     bottom: 0;
     left: 0;
 }
-
 .nav-link:hover:after {
     opacity: 1;
 }
+.dark_mode{
+    color: black;
+}
+
+.home{
+    padding: 20px;
+    gap: 30px;
+    background-color: #cedaff;;
+}
+.home-text{
+ 
+}
+.home-text span{
+ 
+}
+.home-text h1{
+text-transform: uppercase;
+}
+.home-text p{
+
+}
+.home-img img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border-radius: 10%;
+}
+
+
 
