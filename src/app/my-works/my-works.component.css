@@ -1,0 +1,11 @@
+section{
+    padding: 20px;
+    background: linear-gradient(to right, #deeaff 10%, #cddaff 100%);
+}
+.section-of-works{
+    gap: 30px;
+    padding: 10px;
+}
+.card-img-top{
+    height: 100px;
+}
