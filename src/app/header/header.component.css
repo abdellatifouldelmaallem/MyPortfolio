@@ -1,7 +1,8 @@
 .navbar {
     background: linear-gradient(to left, #deeaff 10%, #cddaff 100%);
     height: 90px;
-    color: black;   
+    top: 0;
+    z-index: 1; 
 }
 .nav-link {
     position: relative;
