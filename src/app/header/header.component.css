@@ -1,28 +1,19 @@
-@keyframes background-move {
-    100% {
-      transform: translateY(300px); /* Use transform instead of translate */
-    }
-  }
-  
-  .background {
-    position: fixed;
-    width: 100vw;
-    height: calc(100vh + 600px);
-    top: -300px;
+    .background {
+    width: 100%;
+    min-height: 43vw;
     background: url("../../assets/image/bg.png");
-    animation: background-move 4s infinite linear;
   }
   
 
 .nav_left {
-    background-color: #f19159;
+    background-color: #a965d1;
     border-top-left-radius: 48px;
     border-bottom-left-radius: 48px;
 }
 
 .logo{
-    border: 1px solid #f19159;
-    background-color: #f19159;
+    border: 1px solid #a965d1;
+    background-color: #a965d1;
     color: #fff;
     height: 37%;
     width: 45px;
@@ -58,7 +49,7 @@
 }
 
 .navbar-toggler {
-    border: 3px solid #f19159;
+    border: 3px solid #a965d1;
 }
 
 .navbar-toggler-icon {
@@ -68,3 +59,5 @@
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
+
