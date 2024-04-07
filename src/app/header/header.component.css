@@ -60,4 +60,32 @@
     box-shadow: none;
 }
 
+.image{
+    border-left: 10px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+}
+
+.sd{
+    border: 2px solid #836396;
+    background: linear-gradient(#643c7c 0%, #836396 100%);
+    padding: 5px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.description{
+    font-weight: 600;
+    font-size: 20px;
+}
+
 
