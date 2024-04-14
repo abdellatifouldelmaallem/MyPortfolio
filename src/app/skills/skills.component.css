@@ -81,7 +81,6 @@
 	font-weight: thin;
 	color: #000000;
 	padding-bottom: 15px;
-	text-transform: uppercase;
 }
 .progress-bar{
 	position: relative;
@@ -111,6 +110,8 @@
 .skills-container{
     border:2px #a965d1 solid;
     background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: #000000;
 }
 @keyframes animate{
 	100%{
