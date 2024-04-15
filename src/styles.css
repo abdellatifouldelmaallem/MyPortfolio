@@ -2,4 +2,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 body{
     background-color: black;
+    font-weight: 600;
+    font-size: 20px;
 }

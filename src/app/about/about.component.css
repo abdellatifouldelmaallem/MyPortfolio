@@ -53,7 +53,7 @@ main.row{
     border-top: 2px solid white;
 }
 .col header.title{
-	font-family: helvetica;
+	/* font-family: helvetica; */
 	color: #11a372;
 	padding: 0px 0px 20px 30px;
 }

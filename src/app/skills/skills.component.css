@@ -14,7 +14,7 @@
 }
 .x .main-title h1{
 	position: relative;
-	font-size: 40px;
+	font-size: 37px;
 	color: #ffffff;
 	margin-bottom: 30px;
 	display: inline-block;
@@ -53,8 +53,8 @@
 .row .sub-title h2{
 	position: relative;
 	color: #ffffff;
-	font-size: 22px;
-	font-family: helvetica;
+	/* font-size: 19px; */
+	/* font-family: helvetica; */
 	display: inline-block;
 	margin-bottom: 30px;
 }
@@ -77,7 +77,7 @@
 	background-color: #11a372;;
 }
 .subject{
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: thin;
 	color: #000000;
 	padding-bottom: 15px;
@@ -96,7 +96,7 @@
 	top: -35px;
 	right: 0;
 	color: #a31313;
-	font-size: 18px;
+	font-size: 19px;
 }
 .progress-line{
 	position: absolute;
@@ -139,7 +139,7 @@
 		flex-direction: column;
 	}
 	.x .main-title h1{
-		font-size: 36px;
+		font-size: 19px;
 	}
 	.x .row{
 		margin-top: 30px;
