@@ -20,6 +20,11 @@
     border-radius: 50%;
 }
 
+.nav-link.active {
+  color: #ffffff;
+  background-color: #a965d1;
+}
+
 .nav-tabs .nav-link {
     border: none;
     border-top-left-radius: 0;
@@ -144,7 +149,7 @@
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid #fff;
+    border: 3px solid #ffffff;
     z-index: 1;
   }
   
@@ -156,7 +161,7 @@
   }
   
   ul li a:hover .icon {
-    color: #fff;
+    color: #ffffff;
     transform: rotateY(360deg);
   }
   
